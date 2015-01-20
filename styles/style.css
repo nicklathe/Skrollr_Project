@@ -29,28 +29,64 @@ p {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+#glasses {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.header h1 {
+    padding-top: 20px;
+    font-size: 130px;
+    color: yellow;
+    font-weight: 700;
+}
+
 #text-block-1 {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: 200px;
     background-color: #fff;
-    top: 40%;
+    margin-top: 10%;
 }
 
 #text-block-2 {
-    position: absolute;
+    /*position: absolute;*/
     width: 500px;
     height: 500px;
     border-radius: 250px;
     background-color: #fff;
-    left: 30%;
-    top: 20%;
+    margin-top: 10%;
+/*    left: 32%;
+    top: 20%;*/
+}
+
+#text-block-3 h1 {
+    /*margin-left: 40%;*/
+    margin-top: 10%;
+    color: #fff;
+    font-size: 120px;
+    font-weight: 700;
+    /*text-align: center;*/
+
+}
+
+#text-block-3 p {
+    color: #fff;
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+#text-block-4 .caption h1 {
+    color: #fff;
+    margin-top: 30%;
+    font-size: 130px;
 }
 
 #slide-1 .caption {
     top: 20%;
     left: 23%;
-    text-align: center;
+    /*text-align: center;*/
     color: #000;
 
 }
@@ -58,27 +94,18 @@ p {
 #slide-2 .caption {
     top: 30%;
     left: 0;
-    text-align: center;
+    /*text-align: center;*/
     color: #000;
     width: 100%
 
 }
 
 #slide-3 .caption {
-/*    left: 5%;
-    right: auto;*/
-    text-align: center;
-    left: 25%;
-    margin-top: 5%;
     color: #fff;
 }
 
 #slide-4 .caption {
-    left: 5%;
-    right: auto;
-    top: 5%;
-    bottom: auto;
-    text-align: left;
+    left: 25%;
 }
 
 #slides-container {
@@ -125,7 +152,7 @@ p {
 }
 
 #slide-4 {
-    background: url("../img/barn.jpg") no-repeat center center;
+    background: url("../img/porch.jpg") no-repeat center center;
     background-size: cover;
     -webkit-transform: translate(100%,0);
     -ms-transform: translate(100%,0);
